@@ -1,1 +1,1 @@
-# sirma-task
+sirma-task

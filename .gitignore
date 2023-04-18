@@ -1,20 +1,23 @@
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+gradle/wrapper/gradle-wrapper.jar
+**/src/main/**/build/
+**/src/test/**/build/
+gradlew
+gradlew.bat
+gradle.xml
+misc.xml
+settings.gradle
+gradle/wrapper/gradle-wrapper.properties
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea
 *.iws
 *.iml
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+**/src/main/**/out/
+**/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
